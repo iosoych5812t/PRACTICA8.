@@ -1,0 +1,23 @@
+*{
+    margin-top:5px;
+    margin: 2px;
+}
+body h1 {
+    font-family: Arial Narrow;
+
+}
+body form {
+    margin: 50px;
+    background-color: rgb(179, 178, 178);
+    display: inline-block;
+    border-width:2px;
+    border-style:solid;
+    border-color: black;
+}
+body form label {
+    display: flex;
+}
+body form input:hover{
+    background-color: rgb(255, 255, 255);
+    height: 25px;
+}

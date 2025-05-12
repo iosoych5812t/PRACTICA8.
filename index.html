@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Operaciones matematicas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>CALCULADORA SIMPLE</h1>
+        <form id="calc" name="calc">
+            <label for="" >Numero 1:</label>
+            <input type="number" id="txtnumero1" value="">
+            <br>
+            <label for="">Numero 2:</label>
+            <input type="number" id="txtnumero2" value="">
+            <br>
+            <br>
+            <br>
+            <input type="button" id="btn-enviar" name="btn-enviar" value="+" onclick="sumar()">
+            <input type="button" id="btn-enviar" name="btn-enviar" value="-" onclick="restar()">
+            <input type="button" id="btn-enviar" name="btn-enviar" value="*" onclick="multiplicar()">
+            <input type="button" id="btn-enviar" name="btn-enviar" value="/" onclick="dividir()">
+            <input type="button" id="btn-enviar" name="btn-enviar" value="%" onclick="modulo()">
+            <input type="button" id="btn-enviar" name="btn-enviar" value="**" onclick="elevar()">
+            <br>
+            <br>
+            <label for="">Resultado de la operacion</label>
+            <input type="text" id="resultado" name="resultado" value="0" disabled >
+        </form>
+    </body>
+    <script src="scripts.js"></script>
+</html>
